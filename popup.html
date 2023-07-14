@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Open Jira ticket</title>
+  <style>
+    body {
+      width: 200px;
+      height: 150px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      padding: 10px;
+    }
+
+    h1 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+
+    button {
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+  <script src="popup.js" type="module"></script>
+</head>
+<body>
+  <h1>Open Link with Parameters</h1>
+  <input type="text" id="linkInput" placeholder="Enter a link">
+  <button id="openButton">Open Link</button>
+</body>
+</html>
